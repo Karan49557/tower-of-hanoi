@@ -1,0 +1,32 @@
+Tower of Hanoi
+Description
+This project implements the classic Tower of Hanoi problem using C++. The Tower of Hanoi is a mathematical puzzle that consists of three rods and a number of disks of different sizes that can slide onto any rod. The objective is to move the entire stack of disks from the source rod to the destination rod, following these rules:
+
+Only one disk can be moved at a time.
+Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
+No larger disk may be placed on top of a smaller disk.
+The program takes the number of disks as input from the user and outputs the sequence of moves required to solve the puzzle.
+
+Features
+Recursive implementation of the Tower of Hanoi algorithm.
+Clear output that describes each move made during the solution process.
+User-friendly input to specify the number of disks.
+How to Use
+Clone the repository or download the source code.
+Compile the program using a C++ compiler.
+Run the executable and input the number of disks when prompted.
+Observe the sequence of moves required to solve the Tower of Hanoi puzzle.
+Example
+Enter no. of disks: 3
+Move Disk 1 from A to C
+Move Disk 2 from A to B
+Move Disk 1 from C to B
+Move Disk 3 from A to C
+Move Disk 1 from B to A
+Move Disk 2 from B to C
+Move Disk 1 from A to C
+Contributing
+Feel free to contribute by submitting issues or pull requests. Your contributions to improve this project are welcome!
+
+License
+This project is open-source and available under the MIT License
